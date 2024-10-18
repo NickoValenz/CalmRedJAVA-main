@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Switch para activar/desactivar notificaciones -->
+    <Switch
+        android:id="@+id/switchNotificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar Notificaciones"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Layout que contiene las notificaciones -->
+    <LinearLayout
+        android:id="@+id/layoutNotificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Notificación permanente -->
+        <TextView
+            android:id="@+id/notificacionPermanente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notificación Permanente"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Notificación temporal -->
+        <TextView
+            android:id="@+id/notificacionTemporal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notificación Temporal"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+</LinearLayout>

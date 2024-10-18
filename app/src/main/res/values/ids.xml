@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnGuardarGrupo" type="id" />
+    <item name="nombreGrupoEditText" type="id" />
+    <item name="etiquetasRadioGroup" type="id" />
+    <item name="tituloEditText" type="id" />
+    <item name="contenidoEditText" type="id" />
+    <item name="btnGuardarEntrada" type="id" />
+    <item name="switchNotificaciones" type="id" />
+    <item name="layoutNotificaciones" type="id" />
+    <item name="notificacionPermanente" type="id" />
+    <item name="notificacionTemporal" type="id" />
+    <item name="nombre" type="id" />
+    <item name="contrasenia" type="id" />
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nombreGrupoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del grupo" />
+
+    <RadioGroup
+        android:id="@+id/etiquetasRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioMeditacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meditación" />
+
+        <RadioButton
+            android:id="@+id/radioRelax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relajación" />
+
+        <RadioButton
+            android:id="@+id/radioNostalgico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nostálgico" />
+
+        <RadioButton
+            android:id="@+id/radioMelancolico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melancólico" />
+
+        <RadioButton
+            android:id="@+id/radioTriste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triste" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGuardarGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Grupo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

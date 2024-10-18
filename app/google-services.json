@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598109098411",
+    "project_id": "javacalmred",
+    "storage_bucket": "javacalmred.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598109098411:android:5457de8d3092e9ed4942ee",
+        "android_client_info": {
+          "package_name": "com.example.calmredjava"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBycw5ZGKpKApvzOrYRHl3yw2bGpHTm86o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
